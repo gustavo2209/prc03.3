@@ -1,0 +1,11 @@
+li {
+  color: black;
+}
+
+li:nth-child(odd) {
+  color: rgb(255, 0, 0);
+}
+
+li:nth-child(even) {
+  color: rgb(17, 0, 255);
+}

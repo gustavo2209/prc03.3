@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "SAMSUNG TV 49 4K UHD",
+      "detail": "Modelo : 4UK6200",
+      "price": 1499.99,
+      "stock": 1000
+    },
+    {
+      "id": 2,
+      "name": "SONY TV 59 4K UHD",
+      "detail": "Modelo : 8UK620Y",
+      "price": 1899.99,
+      "stock": 1450
+    },
+    {
+      "id": 4,
+      "name": "AOC TV 29 WHD",
+      "detail": "Modelo : wK79",
+      "price": 1499.99,
+      "stock": 12
+    }
+  ]
+}
