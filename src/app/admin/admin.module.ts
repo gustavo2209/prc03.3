@@ -5,6 +5,8 @@ import { FooterComponent } from './common/footer/footer.component';
 import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductService } from './services/product.service';
+import { AdminComponent } from './admin.component';
+import { AdminRoutingModule } from './admin-routing.module';
 
 
 @NgModule({
@@ -12,16 +14,19 @@ import { ProductService } from './services/product.service';
     HeaderComponent,
     FooterComponent,
     ProductComponent,
-    ProductsComponent
+    ProductsComponent,
+    AdminComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AdminRoutingModule
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     ProductComponent,
-    ProductsComponent
+    ProductsComponent,
+    AdminComponent,
   ],
   providers : [ ProductService ]
 })
